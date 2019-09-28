@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    float r,A,P,V;
+    float r,A,P;
     printf("\n enter radious");
     scanf("%f",&r);
-    A=r*r;
+    A=3.14*r*r;
     P=2*3.14*r;
-    V=r*r*r;
-    printf("\narea is: %f,  perimeter is: %f,  volume is: %f",A,P,V);
+    printf("\narea is: %f,  perimeter is: %f",A,P);
 
 }
+
