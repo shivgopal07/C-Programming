@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+clrsrn() 
 void main()
 {
     float a,b,c,avg;
